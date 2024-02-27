@@ -28,19 +28,17 @@ if(count($argv)){
         Clase::create(["'Como hacer pruebas'", 5]);
 
 
-        TipoExamen::create(["'Redaccion'"]);
-        TipoExamen::create(["'Seleccion'"]);
-        TipoExamen::create(["'Exposicion'"]);
-        TipoExamen::create(["'Seleccion Multiple'"]);
-        TipoExamen::create(["'Entrevista'"]);
+        TipoExamen::create(["'selección'"]);
+        TipoExamen::create(["'pregunta y respuesta'"]);
+        TipoExamen::create(["'completación'"]);
 
         Examen::create(["'Trabajos y ocupaciones en Inglés'", 1]);
-        Examen::create(["'Documentacion de codigo'", 5]);
-        Examen::create(["'Desarrollo Web con PHP'", 4]);
+        Examen::create(["'Documentacion de codigo'", 3]);
+        Examen::create(["'Desarrollo Web con PHP'", 2]);
         Examen::create(["'Logica de Programacion basica'", 3]);
         Examen::create(["'Pruebas Unitarias en proyectos'", 2]);
         Examen::create(["'Unidades de medicion'", 1]);
-        Examen::create(["'Contabilidad aplicada al desarrollo'", 5]);
+        Examen::create(["'Contabilidad aplicada al desarrollo'", 2]);
         Examen::create(["'Desarrollo de aplicaciones avanzadas'", 3]);
 
 
